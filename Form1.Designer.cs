@@ -52,18 +52,18 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 20F);
             this.label1.ForeColor = System.Drawing.Color.Yellow;
-            this.label1.Location = new System.Drawing.Point(133, 199);
+            this.label1.Location = new System.Drawing.Point(90, 253);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 38);
+            this.label1.Size = new System.Drawing.Size(103, 38);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Turn";
+            this.label1.Text = "Turn :";
             // 
             // lbPlayerTurn
             // 
             this.lbPlayerTurn.AutoSize = true;
             this.lbPlayerTurn.Font = new System.Drawing.Font("Arial Black", 20F);
             this.lbPlayerTurn.ForeColor = System.Drawing.Color.White;
-            this.lbPlayerTurn.Location = new System.Drawing.Point(107, 257);
+            this.lbPlayerTurn.Location = new System.Drawing.Point(226, 253);
             this.lbPlayerTurn.Name = "lbPlayerTurn";
             this.lbPlayerTurn.Size = new System.Drawing.Size(129, 38);
             this.lbPlayerTurn.TabIndex = 2;
@@ -74,18 +74,18 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Black", 20F);
             this.label3.ForeColor = System.Drawing.Color.Yellow;
-            this.label3.Location = new System.Drawing.Point(125, 310);
+            this.label3.Location = new System.Drawing.Point(55, 342);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 38);
+            this.label3.Size = new System.Drawing.Size(138, 38);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Winner";
+            this.label3.Text = "Winner :";
             // 
             // lbWinner
             // 
             this.lbWinner.AutoSize = true;
             this.lbWinner.Font = new System.Drawing.Font("Arial Black", 20F);
             this.lbWinner.ForeColor = System.Drawing.Color.Lime;
-            this.lbWinner.Location = new System.Drawing.Point(84, 380);
+            this.lbWinner.Location = new System.Drawing.Point(226, 342);
             this.lbWinner.Name = "lbWinner";
             this.lbWinner.Size = new System.Drawing.Size(187, 38);
             this.lbWinner.TabIndex = 4;
@@ -237,10 +237,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Tic_Tac_Toe_Game.Properties.Resources.Tic_Tac_Toe_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(79, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(106, 36);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 122);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(192, 166);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -269,8 +269,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic-Tac-Toe Game";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Form1_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
